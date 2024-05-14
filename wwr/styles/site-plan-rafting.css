@@ -49,8 +49,10 @@ nav a {
 }
 nav a :link,
 nav a:visited {
-  color:#fff;
+  color: #fff;
 }
+/*Isso daqui È um comentario */
+
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--secondary-color);
