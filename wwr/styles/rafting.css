@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --primary-color: #0096c7;
+  --secondary-color: #a3b18a;
+  --accent1-color: #fee440;
+  --accent2-color: #fffef8;
+
+  --heading-font: "montserrat", serif;
+  --paragraph-font: "roboto", serif;
+
+  --nav-background-color: #fffef8;
+  --nav-link-color: #a3b18a;
+  --nav-hover-link-color: #0096c7;
+  --nav-hover-background-color: #fee440;
+}
+h1 h2 {
+  font-family: var(--heading-font);
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+p {
+  font-family: var(--paragraph-font);
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+body {
+  max-width: 1000px;
+}
+.hero {
+  position: relative;
+}
+.hero h1 {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  left: -1px;
+  color: black;
+  font-size: 50px;
+  background-color: hsl(208, 100%, 97%, 0.8);
+  text-align: center;
+}
+article img {
+  float: right;
+  padding: 2px;
+  margin: 0;
+  max-width: 100%;
+}
+.hero article {
+  width: 800px;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  color: black;
+  font-size: 20px;
+  background-color: hsl(208, 100%, 97%, 0.8);
+}
+.hero p {
+  color: black;
+}
+.hero img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+img {
+  max-width: 100%;
+}
+.inicio {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 10px;
+}
+.inicio a {
+  color: black;
+}
