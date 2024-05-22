@@ -77,3 +77,8 @@ img {
 .inicio a {
   color: black;
 }
+.logo {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+}
