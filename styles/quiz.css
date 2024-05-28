@@ -1,0 +1,43 @@
+fieldset {
+  display: grid;
+  background-color: rgb(123, 235, 235);
+  gap: 15px;
+  font-size: 20px;
+  padding: 30px;
+}
+body {
+  max-width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: rgb(114, 18, 18);
+  margin-left: 30px;
+}
+.max {
+  height: 40px;
+}
+.min {
+  height: 70px;
+}
+option {
+  font-size: 25px;
+}
+img {
+  margin-left: 50px;
+}
+form{ background-color: rgb(46, 73, 73)
+}
+*{
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+button{
+  padding: 20px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(17, 22, 22);
+  margin: 0;
+  border-radius: 4px;
+  color: aliceblue;
+}
