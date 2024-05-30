@@ -181,6 +181,93 @@ nav {
   font-size: 15px;
   grid-column: 2;
 }
-footer{
+footer {
   margin: 0;
+}
+.information {
+  display: grid;
+  grid-template-columns: 700px 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #fee440;
+}
+.information h1,
+p {
+  grid-column: 1;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.information p {
+  text-align: start;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#maps {
+  width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+footer {
+  display: grid;
+  grid-row: 1;
+}
+.funcionarios {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--nav-link-color);
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.funcionarios h2 {
+  margin-top: 15px;
+  padding: 0;
+  text-align: center;
+  font-family: var(--heading-font);
+  font-size: 30px;
+  color: var(--accent1-color);
+}
+.worksi{
+  width: 250px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+form{
+  background-color: #fee440;
+  display: grid;
+  padding: 30px;
+  gap: 15px;
+  border: 5px solid var(--nav-link-color);
+  max-width: 400px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: var(--heading-font);
+}
+#solo{
+  font-size: 20px;
+  padding: 10px;
+  font-family: var(--heading-font);
+}
+.pave{
+  background-color:var(--nav-link-color);
+}
+input{
+  padding: 8px;
+}
+button{
+  padding: 10px;
+  font-size: 20px;
+  background-color: var(--nav-link-color);
 }
