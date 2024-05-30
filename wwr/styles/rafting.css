@@ -32,7 +32,7 @@ body {
 }
 .hero {
   position: relative;
-  padding: ;
+  padding: 10px;
 }
 .hero h1 {
   position: absolute;
@@ -190,14 +190,14 @@ footer {
   grid-template-rows: 1fr 1fr;
   background-color: #fee440;
 }
-.information h1,
-p {
+.information h1{
   grid-column: 1;
   text-align: center;
   font-size: 40px;
   margin-top: 10px;
 }
 .information p {
+  grid-column: 1;
   text-align: start;
   padding: 10px;
   margin-left: 100px;
