@@ -39,6 +39,7 @@ body {
   width: 100%;
   top: 20px;
   left: -1px;
+  font-family: var(--heading-font);
   color: black;
   font-size: 50px;
   background-color: hsl(208, 100%, 97%, 0.8);
@@ -61,6 +62,7 @@ article img {
 }
 .hero p {
   color: black;
+  font-family: var(--paragraph-font);
 }
 .hero img {
   max-width: 100%;
@@ -76,6 +78,7 @@ img {
   list-style: none;
   padding: 10px;
   font-size: 20px;
+  font-family: var(--heading-font);
   align-content: center;
   border: 1px solid;
   border-radius: 8px;
@@ -190,7 +193,7 @@ footer {
   grid-template-rows: 1fr 1fr;
   background-color: #fee440;
 }
-.information h1{
+.information h1 {
   grid-column: 1;
   text-align: center;
   font-size: 40px;
@@ -207,6 +210,7 @@ footer {
 * {
   margin: 0;
   padding: 0;
+  font-family: var(--heading-font);
 }
 #maps {
   width: 250px;
@@ -223,7 +227,6 @@ footer {
   background-color: var(--nav-link-color);
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 .funcionarios h2 {
   margin-top: 15px;
@@ -233,13 +236,13 @@ footer {
   font-size: 30px;
   color: var(--accent1-color);
 }
-.worksi{
+.worksi {
   width: 250px;
   height: 200px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-form{
+form {
   background-color: #fee440;
   display: grid;
   padding: 20px;
@@ -255,21 +258,20 @@ form{
   font-size: 20px;
   font-family: var(--heading-font);
 }
-#solo{
+#solo {
   font-size: 20px;
   padding: 10px;
   font-family: var(--heading-font);
 }
-.pave{
+.pave {
   margin: 0;
-  padding: 
-  3px;
-  background-color:var(--nav-link-color);
+  padding: 3px;
+  background-color: var(--nav-link-color);
 }
-input{
+input {
   padding: 8px;
 }
-button{
+button {
   padding: 10px;
   font-size: 20px;
   background-color: var(--nav-link-color);
